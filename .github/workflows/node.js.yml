@@ -16,3 +16,7 @@ jobs:
     steps:
       - name: "hola mundo"
         run: echo "hello world" 
+      - name: "mostrar la fecha"
+        run: date
+      - name: Muestra el contenido del directorio
+        run: ls -la
